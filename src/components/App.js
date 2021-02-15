@@ -1,11 +1,9 @@
 import React  from 'react'
-
+import DragResize from './DragR'
 export default function Main(){
     return (
         <div>
-            <h1>
-                Hello 
-            </h1>
+            <DragResize/>
             </div>
     )
 }
